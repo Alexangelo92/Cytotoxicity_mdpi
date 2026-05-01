@@ -1,0 +1,2151 @@
+2026-05-01 14:28:57,309:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-05-01 14:28:57,310:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-05-01 14:28:57,310:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-05-01 14:28:57,310:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-05-01 14:30:01,884:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-05-01 14:30:01,884:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-05-01 14:30:01,884:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-05-01 14:30:01,884:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-05-01 14:37:43,962:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/preprocessing/_encoders.py:241: UserWarning: Found unknown categories in columns [8] during transform. These unknown categories will be encoded as all zeros
+  warnings.warn(
+
+2026-05-01 14:38:25,376:INFO:PyCaret ClassificationExperiment
+2026-05-01 14:38:25,376:INFO:Logging name: clf-default-name
+2026-05-01 14:38:25,376:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2026-05-01 14:38:25,376:INFO:version 3.3.2
+2026-05-01 14:38:25,376:INFO:Initializing setup()
+2026-05-01 14:38:25,376:INFO:self.USI: 7f8e
+2026-05-01 14:38:25,376:INFO:self._variable_keys: {'gpu_n_jobs_param', 'log_plots_param', 'exp_name_log', 'idx', 'exp_id', 'data', 'html_param', '_ml_usecase', 'target_param', 'fold_generator', 'logging_param', 'fold_groups_param', 'y', '_available_plots', 'fold_shuffle_param', 'USI', 'X_test', 'pipeline', 'X_train', 'y_test', 'fix_imbalance', 'X', 'y_train', 'seed', 'is_multiclass', 'n_jobs_param', 'gpu_param', 'memory'}
+2026-05-01 14:38:25,376:INFO:Checking environment
+2026-05-01 14:38:25,376:INFO:python_version: 3.11.15
+2026-05-01 14:38:25,376:INFO:python_build: ('main', 'Mar 11 2026 17:14:47')
+2026-05-01 14:38:25,376:INFO:machine: arm64
+2026-05-01 14:38:25,376:INFO:platform: macOS-26.4.1-arm64-arm-64bit
+2026-05-01 14:38:25,377:INFO:Memory: svmem(total=17179869184, available=3832987648, percent=77.7, used=6133497856, free=147030016, active=3703324672, inactive=3681140736, wired=2430173184)
+2026-05-01 14:38:25,377:INFO:Physical Core: 10
+2026-05-01 14:38:25,377:INFO:Logical Core: 10
+2026-05-01 14:38:25,377:INFO:Checking libraries
+2026-05-01 14:38:25,377:INFO:System:
+2026-05-01 14:38:25,377:INFO:    python: 3.11.15 (main, Mar 11 2026, 17:14:47) [Clang 20.1.8 ]
+2026-05-01 14:38:25,377:INFO:executable: /opt/anaconda3/envs/ml-env/bin/python
+2026-05-01 14:38:25,377:INFO:   machine: macOS-26.4.1-arm64-arm-64bit
+2026-05-01 14:38:25,377:INFO:PyCaret required dependencies:
+2026-05-01 14:38:25,378:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-05-01 14:38:25,525:INFO:                 pip: 26.0.1
+2026-05-01 14:38:25,525:INFO:          setuptools: 81.0.0
+2026-05-01 14:38:25,525:INFO:             pycaret: 3.3.2
+2026-05-01 14:38:25,525:INFO:             IPython: 9.13.0
+2026-05-01 14:38:25,525:INFO:          ipywidgets: 8.1.8
+2026-05-01 14:38:25,525:INFO:                tqdm: 4.67.3
+2026-05-01 14:38:25,525:INFO:               numpy: 1.26.4
+2026-05-01 14:38:25,525:INFO:              pandas: 2.1.4
+2026-05-01 14:38:25,525:INFO:              jinja2: 3.1.6
+2026-05-01 14:38:25,525:INFO:               scipy: 1.11.4
+2026-05-01 14:38:25,525:INFO:              joblib: 1.3.2
+2026-05-01 14:38:25,525:INFO:             sklearn: 1.4.2
+2026-05-01 14:38:25,525:INFO:                pyod: 3.2.1
+2026-05-01 14:38:25,525:INFO:            imblearn: 0.14.1
+2026-05-01 14:38:25,525:INFO:   category_encoders: 2.7.0
+2026-05-01 14:38:25,525:INFO:            lightgbm: 4.6.0
+2026-05-01 14:38:25,525:INFO:               numba: 0.65.1
+2026-05-01 14:38:25,525:INFO:            requests: 2.33.1
+2026-05-01 14:38:25,525:INFO:          matplotlib: 3.7.5
+2026-05-01 14:38:25,525:INFO:          scikitplot: 0.3.7
+2026-05-01 14:38:25,525:INFO:         yellowbrick: 1.5
+2026-05-01 14:38:25,525:INFO:              plotly: 6.7.0
+2026-05-01 14:38:25,525:INFO:    plotly-resampler: Not installed
+2026-05-01 14:38:25,525:INFO:             kaleido: 1.2.0
+2026-05-01 14:38:25,525:INFO:           schemdraw: 0.15
+2026-05-01 14:38:25,525:INFO:         statsmodels: 0.14.6
+2026-05-01 14:38:25,525:INFO:              sktime: 0.26.0
+2026-05-01 14:38:25,525:INFO:               tbats: 1.1.3
+2026-05-01 14:38:25,525:INFO:            pmdarima: 2.0.4
+2026-05-01 14:38:25,525:INFO:              psutil: 7.2.2
+2026-05-01 14:38:25,525:INFO:          markupsafe: 3.0.3
+2026-05-01 14:38:25,525:INFO:             pickle5: Not installed
+2026-05-01 14:38:25,525:INFO:         cloudpickle: 3.1.2
+2026-05-01 14:38:25,525:INFO:         deprecation: 2.1.0
+2026-05-01 14:38:25,525:INFO:              xxhash: 3.7.0
+2026-05-01 14:38:25,525:INFO:           wurlitzer: 3.1.1
+2026-05-01 14:38:25,525:INFO:PyCaret optional dependencies:
+2026-05-01 14:38:25,529:INFO:                shap: 0.51.0
+2026-05-01 14:38:25,529:INFO:           interpret: Not installed
+2026-05-01 14:38:25,529:INFO:                umap: Not installed
+2026-05-01 14:38:25,529:INFO:     ydata_profiling: Not installed
+2026-05-01 14:38:25,529:INFO:  explainerdashboard: Not installed
+2026-05-01 14:38:25,529:INFO:             autoviz: Not installed
+2026-05-01 14:38:25,529:INFO:           fairlearn: Not installed
+2026-05-01 14:38:25,529:INFO:          deepchecks: Not installed
+2026-05-01 14:38:25,529:INFO:             xgboost: 3.2.0
+2026-05-01 14:38:25,529:INFO:            catboost: 1.2.10
+2026-05-01 14:38:25,529:INFO:              kmodes: Not installed
+2026-05-01 14:38:25,529:INFO:             mlxtend: Not installed
+2026-05-01 14:38:25,529:INFO:       statsforecast: Not installed
+2026-05-01 14:38:25,529:INFO:        tune_sklearn: Not installed
+2026-05-01 14:38:25,529:INFO:                 ray: Not installed
+2026-05-01 14:38:25,529:INFO:            hyperopt: Not installed
+2026-05-01 14:38:25,529:INFO:              optuna: 4.8.0
+2026-05-01 14:38:25,529:INFO:               skopt: Not installed
+2026-05-01 14:38:25,529:INFO:              mlflow: Not installed
+2026-05-01 14:38:25,529:INFO:              gradio: Not installed
+2026-05-01 14:38:25,529:INFO:             fastapi: Not installed
+2026-05-01 14:38:25,529:INFO:             uvicorn: Not installed
+2026-05-01 14:38:25,529:INFO:              m2cgen: Not installed
+2026-05-01 14:38:25,529:INFO:           evidently: Not installed
+2026-05-01 14:38:25,529:INFO:               fugue: Not installed
+2026-05-01 14:38:25,529:INFO:           streamlit: Not installed
+2026-05-01 14:38:25,529:INFO:             prophet: Not installed
+2026-05-01 14:38:25,529:INFO:None
+2026-05-01 14:38:25,529:INFO:Set up data.
+2026-05-01 14:38:44,058:INFO:PyCaret ClassificationExperiment
+2026-05-01 14:38:44,058:INFO:Logging name: clf-default-name
+2026-05-01 14:38:44,058:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2026-05-01 14:38:44,058:INFO:version 3.3.2
+2026-05-01 14:38:44,058:INFO:Initializing setup()
+2026-05-01 14:38:44,058:INFO:self.USI: 8af9
+2026-05-01 14:38:44,058:INFO:self._variable_keys: {'gpu_n_jobs_param', 'log_plots_param', 'exp_name_log', 'idx', 'exp_id', 'data', 'html_param', '_ml_usecase', 'target_param', 'fold_generator', 'logging_param', 'fold_groups_param', 'y', '_available_plots', 'fold_shuffle_param', 'USI', 'X_test', 'pipeline', 'X_train', 'y_test', 'fix_imbalance', 'X', 'y_train', 'seed', 'is_multiclass', 'n_jobs_param', 'gpu_param', 'memory'}
+2026-05-01 14:38:44,058:INFO:Checking environment
+2026-05-01 14:38:44,058:INFO:python_version: 3.11.15
+2026-05-01 14:38:44,058:INFO:python_build: ('main', 'Mar 11 2026 17:14:47')
+2026-05-01 14:38:44,058:INFO:machine: arm64
+2026-05-01 14:38:44,058:INFO:platform: macOS-26.4.1-arm64-arm-64bit
+2026-05-01 14:38:44,058:INFO:Memory: svmem(total=17179869184, available=3895312384, percent=77.3, used=6159187968, free=105136128, active=3796336640, inactive=3787735040, wired=2362851328)
+2026-05-01 14:38:44,058:INFO:Physical Core: 10
+2026-05-01 14:38:44,058:INFO:Logical Core: 10
+2026-05-01 14:38:44,058:INFO:Checking libraries
+2026-05-01 14:38:44,058:INFO:System:
+2026-05-01 14:38:44,058:INFO:    python: 3.11.15 (main, Mar 11 2026, 17:14:47) [Clang 20.1.8 ]
+2026-05-01 14:38:44,058:INFO:executable: /opt/anaconda3/envs/ml-env/bin/python
+2026-05-01 14:38:44,058:INFO:   machine: macOS-26.4.1-arm64-arm-64bit
+2026-05-01 14:38:44,058:INFO:PyCaret required dependencies:
+2026-05-01 14:38:44,058:INFO:                 pip: 26.0.1
+2026-05-01 14:38:44,058:INFO:          setuptools: 81.0.0
+2026-05-01 14:38:44,058:INFO:             pycaret: 3.3.2
+2026-05-01 14:38:44,058:INFO:             IPython: 9.13.0
+2026-05-01 14:38:44,058:INFO:          ipywidgets: 8.1.8
+2026-05-01 14:38:44,058:INFO:                tqdm: 4.67.3
+2026-05-01 14:38:44,058:INFO:               numpy: 1.26.4
+2026-05-01 14:38:44,058:INFO:              pandas: 2.1.4
+2026-05-01 14:38:44,058:INFO:              jinja2: 3.1.6
+2026-05-01 14:38:44,058:INFO:               scipy: 1.11.4
+2026-05-01 14:38:44,058:INFO:              joblib: 1.3.2
+2026-05-01 14:38:44,058:INFO:             sklearn: 1.4.2
+2026-05-01 14:38:44,058:INFO:                pyod: 3.2.1
+2026-05-01 14:38:44,058:INFO:            imblearn: 0.14.1
+2026-05-01 14:38:44,058:INFO:   category_encoders: 2.7.0
+2026-05-01 14:38:44,058:INFO:            lightgbm: 4.6.0
+2026-05-01 14:38:44,058:INFO:               numba: 0.65.1
+2026-05-01 14:38:44,058:INFO:            requests: 2.33.1
+2026-05-01 14:38:44,058:INFO:          matplotlib: 3.7.5
+2026-05-01 14:38:44,058:INFO:          scikitplot: 0.3.7
+2026-05-01 14:38:44,058:INFO:         yellowbrick: 1.5
+2026-05-01 14:38:44,058:INFO:              plotly: 6.7.0
+2026-05-01 14:38:44,058:INFO:    plotly-resampler: Not installed
+2026-05-01 14:38:44,058:INFO:             kaleido: 1.2.0
+2026-05-01 14:38:44,058:INFO:           schemdraw: 0.15
+2026-05-01 14:38:44,058:INFO:         statsmodels: 0.14.6
+2026-05-01 14:38:44,058:INFO:              sktime: 0.26.0
+2026-05-01 14:38:44,058:INFO:               tbats: 1.1.3
+2026-05-01 14:38:44,058:INFO:            pmdarima: 2.0.4
+2026-05-01 14:38:44,058:INFO:              psutil: 7.2.2
+2026-05-01 14:38:44,058:INFO:          markupsafe: 3.0.3
+2026-05-01 14:38:44,058:INFO:             pickle5: Not installed
+2026-05-01 14:38:44,058:INFO:         cloudpickle: 3.1.2
+2026-05-01 14:38:44,058:INFO:         deprecation: 2.1.0
+2026-05-01 14:38:44,058:INFO:              xxhash: 3.7.0
+2026-05-01 14:38:44,058:INFO:           wurlitzer: 3.1.1
+2026-05-01 14:38:44,058:INFO:PyCaret optional dependencies:
+2026-05-01 14:38:44,059:INFO:                shap: 0.51.0
+2026-05-01 14:38:44,059:INFO:           interpret: Not installed
+2026-05-01 14:38:44,059:INFO:                umap: Not installed
+2026-05-01 14:38:44,059:INFO:     ydata_profiling: Not installed
+2026-05-01 14:38:44,059:INFO:  explainerdashboard: Not installed
+2026-05-01 14:38:44,059:INFO:             autoviz: Not installed
+2026-05-01 14:38:44,059:INFO:           fairlearn: Not installed
+2026-05-01 14:38:44,059:INFO:          deepchecks: Not installed
+2026-05-01 14:38:44,059:INFO:             xgboost: 3.2.0
+2026-05-01 14:38:44,059:INFO:            catboost: 1.2.10
+2026-05-01 14:38:44,059:INFO:              kmodes: Not installed
+2026-05-01 14:38:44,059:INFO:             mlxtend: Not installed
+2026-05-01 14:38:44,059:INFO:       statsforecast: Not installed
+2026-05-01 14:38:44,059:INFO:        tune_sklearn: Not installed
+2026-05-01 14:38:44,059:INFO:                 ray: Not installed
+2026-05-01 14:38:44,059:INFO:            hyperopt: Not installed
+2026-05-01 14:38:44,059:INFO:              optuna: 4.8.0
+2026-05-01 14:38:44,059:INFO:               skopt: Not installed
+2026-05-01 14:38:44,059:INFO:              mlflow: Not installed
+2026-05-01 14:38:44,059:INFO:              gradio: Not installed
+2026-05-01 14:38:44,059:INFO:             fastapi: Not installed
+2026-05-01 14:38:44,059:INFO:             uvicorn: Not installed
+2026-05-01 14:38:44,059:INFO:              m2cgen: Not installed
+2026-05-01 14:38:44,059:INFO:           evidently: Not installed
+2026-05-01 14:38:44,059:INFO:               fugue: Not installed
+2026-05-01 14:38:44,059:INFO:           streamlit: Not installed
+2026-05-01 14:38:44,059:INFO:             prophet: Not installed
+2026-05-01 14:38:44,059:INFO:None
+2026-05-01 14:38:44,059:INFO:Set up data.
+2026-05-01 14:38:44,066:INFO:Set up folding strategy.
+2026-05-01 14:38:44,066:INFO:Set up train/test split.
+2026-05-01 14:38:44,067:INFO:Set up data.
+2026-05-01 14:38:44,072:INFO:Set up index.
+2026-05-01 14:38:44,072:INFO:Assigning column types.
+2026-05-01 14:38:44,073:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2026-05-01 14:38:44,092:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2026-05-01 14:38:44,093:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2026-05-01 14:38:44,101:INFO:Soft dependency imported: xgboost: 3.2.0
+2026-05-01 14:38:44,102:INFO:Soft dependency imported: catboost: 1.2.10
+2026-05-01 14:38:44,127:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2026-05-01 14:38:44,127:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2026-05-01 14:38:44,134:INFO:Soft dependency imported: xgboost: 3.2.0
+2026-05-01 14:38:44,134:INFO:Soft dependency imported: catboost: 1.2.10
+2026-05-01 14:38:44,135:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2026-05-01 14:38:44,145:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2026-05-01 14:38:44,152:INFO:Soft dependency imported: xgboost: 3.2.0
+2026-05-01 14:38:44,152:INFO:Soft dependency imported: catboost: 1.2.10
+2026-05-01 14:38:44,162:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2026-05-01 14:38:44,169:INFO:Soft dependency imported: xgboost: 3.2.0
+2026-05-01 14:38:44,169:INFO:Soft dependency imported: catboost: 1.2.10
+2026-05-01 14:38:44,169:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2026-05-01 14:38:44,186:INFO:Soft dependency imported: xgboost: 3.2.0
+2026-05-01 14:38:44,186:INFO:Soft dependency imported: catboost: 1.2.10
+2026-05-01 14:38:44,203:INFO:Soft dependency imported: xgboost: 3.2.0
+2026-05-01 14:38:44,203:INFO:Soft dependency imported: catboost: 1.2.10
+2026-05-01 14:38:44,206:INFO:Set up column name cleaning.
+2026-05-01 14:38:44,208:INFO:Finished creating preprocessing pipeline.
+2026-05-01 14:38:44,208:INFO:Pipeline: Pipeline(memory=FastMemory(location=/var/folders/11/3c5hy62x5sbcbgmx_l91krkr0000gn/T/joblib),
+         steps=[('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False)
+2026-05-01 14:38:44,208:INFO:Creating final display dataframe.
+2026-05-01 14:38:44,217:INFO:Setup _display_container:                    Description      Value
+0                   Session id         42
+1                       Target   toxicity
+2                  Target type     Binary
+3          Original data shape  (136, 46)
+4       Transformed data shape  (136, 46)
+5  Transformed train set shape  (109, 46)
+6   Transformed test set shape   (27, 46)
+7             Numeric features         45
+2026-05-01 14:38:44,235:INFO:Soft dependency imported: xgboost: 3.2.0
+2026-05-01 14:38:44,236:INFO:Soft dependency imported: catboost: 1.2.10
+2026-05-01 14:38:44,253:INFO:Soft dependency imported: xgboost: 3.2.0
+2026-05-01 14:38:44,254:INFO:Soft dependency imported: catboost: 1.2.10
+2026-05-01 14:38:44,255:INFO:setup() successfully completed in 0.2s...............
+2026-05-01 14:38:44,255:INFO:Initializing compare_models()
+2026-05-01 14:38:44,255:INFO:compare_models(self=<pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, include=None, exclude=None, fold=None, round=4, cross_validation=True, sort=auc, n_select=1, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, 'include': None, 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'auc', 'n_select': 1, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'probability_threshold': None, 'engine': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.classification.oop.ClassificationExperiment'>})
+2026-05-01 14:38:44,255:INFO:Checking exceptions
+2026-05-01 14:38:44,256:INFO:Preparing display monitor
+2026-05-01 14:38:44,273:INFO:Initializing Logistic Regression
+2026-05-01 14:38:44,273:INFO:Total runtime is 5.813439687093099e-06 minutes
+2026-05-01 14:38:44,274:INFO:SubProcess create_model() called ==================================
+2026-05-01 14:38:44,275:INFO:Initializing create_model()
+2026-05-01 14:38:44,275:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, estimator=lr, fold=RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x1597fb550>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-05-01 14:38:44,275:INFO:Checking exceptions
+2026-05-01 14:38:44,275:INFO:Importing libraries
+2026-05-01 14:38:44,275:INFO:Copying training dataset
+2026-05-01 14:38:44,277:INFO:Defining folds
+2026-05-01 14:38:44,277:INFO:Declaring metric variables
+2026-05-01 14:38:44,278:INFO:Importing untrained model
+2026-05-01 14:38:44,279:INFO:Logistic Regression Imported successfully
+2026-05-01 14:38:44,313:INFO:Starting cross validation
+2026-05-01 14:38:44,314:INFO:Cross validating with RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), n_jobs=-1
+2026-05-01 14:38:46,561:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-05-01 14:38:46,609:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-05-01 14:38:46,670:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-05-01 14:38:46,689:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-05-01 14:38:46,806:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-05-01 14:38:46,834:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-05-01 14:38:46,984:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-05-01 14:38:46,985:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-05-01 14:38:47,025:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-05-01 14:38:47,025:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-05-01 14:38:47,230:INFO:Calculating mean and std
+2026-05-01 14:38:47,231:INFO:Creating metrics dataframe
+2026-05-01 14:38:47,247:INFO:Uploading results into container
+2026-05-01 14:38:47,247:INFO:Uploading model into container now
+2026-05-01 14:38:47,247:INFO:_master_model_container: 1
+2026-05-01 14:38:47,248:INFO:_display_container: 2
+2026-05-01 14:38:47,248:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=42, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2026-05-01 14:38:47,248:INFO:create_model() successfully completed......................................
+2026-05-01 14:38:47,415:INFO:SubProcess create_model() end ==================================
+2026-05-01 14:38:47,415:INFO:Creating metrics dataframe
+2026-05-01 14:38:47,416:INFO:Initializing K Neighbors Classifier
+2026-05-01 14:38:47,416:INFO:Total runtime is 0.05239214897155762 minutes
+2026-05-01 14:38:47,417:INFO:SubProcess create_model() called ==================================
+2026-05-01 14:38:47,417:INFO:Initializing create_model()
+2026-05-01 14:38:47,417:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, estimator=knn, fold=RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x1597fb550>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-05-01 14:38:47,417:INFO:Checking exceptions
+2026-05-01 14:38:47,418:INFO:Importing libraries
+2026-05-01 14:38:47,418:INFO:Copying training dataset
+2026-05-01 14:38:47,419:INFO:Defining folds
+2026-05-01 14:38:47,419:INFO:Declaring metric variables
+2026-05-01 14:38:47,420:INFO:Importing untrained model
+2026-05-01 14:38:47,421:INFO:K Neighbors Classifier Imported successfully
+2026-05-01 14:38:47,422:INFO:Starting cross validation
+2026-05-01 14:38:47,422:INFO:Cross validating with RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), n_jobs=-1
+2026-05-01 14:38:47,469:INFO:Calculating mean and std
+2026-05-01 14:38:47,469:INFO:Creating metrics dataframe
+2026-05-01 14:38:47,470:INFO:Uploading results into container
+2026-05-01 14:38:47,470:INFO:Uploading model into container now
+2026-05-01 14:38:47,470:INFO:_master_model_container: 2
+2026-05-01 14:38:47,470:INFO:_display_container: 2
+2026-05-01 14:38:47,470:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform')
+2026-05-01 14:38:47,470:INFO:create_model() successfully completed......................................
+2026-05-01 14:38:47,539:INFO:SubProcess create_model() end ==================================
+2026-05-01 14:38:47,539:INFO:Creating metrics dataframe
+2026-05-01 14:38:47,541:INFO:Initializing Naive Bayes
+2026-05-01 14:38:47,541:INFO:Total runtime is 0.0544691801071167 minutes
+2026-05-01 14:38:47,542:INFO:SubProcess create_model() called ==================================
+2026-05-01 14:38:47,542:INFO:Initializing create_model()
+2026-05-01 14:38:47,542:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, estimator=nb, fold=RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x1597fb550>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-05-01 14:38:47,542:INFO:Checking exceptions
+2026-05-01 14:38:47,542:INFO:Importing libraries
+2026-05-01 14:38:47,543:INFO:Copying training dataset
+2026-05-01 14:38:47,544:INFO:Defining folds
+2026-05-01 14:38:47,544:INFO:Declaring metric variables
+2026-05-01 14:38:47,545:INFO:Importing untrained model
+2026-05-01 14:38:47,546:INFO:Naive Bayes Imported successfully
+2026-05-01 14:38:47,547:INFO:Starting cross validation
+2026-05-01 14:38:47,548:INFO:Cross validating with RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), n_jobs=-1
+2026-05-01 14:38:47,587:INFO:Calculating mean and std
+2026-05-01 14:38:47,588:INFO:Creating metrics dataframe
+2026-05-01 14:38:47,588:INFO:Uploading results into container
+2026-05-01 14:38:47,588:INFO:Uploading model into container now
+2026-05-01 14:38:47,588:INFO:_master_model_container: 3
+2026-05-01 14:38:47,588:INFO:_display_container: 2
+2026-05-01 14:38:47,588:INFO:GaussianNB(priors=None, var_smoothing=1e-09)
+2026-05-01 14:38:47,588:INFO:create_model() successfully completed......................................
+2026-05-01 14:38:47,672:INFO:SubProcess create_model() end ==================================
+2026-05-01 14:38:47,672:INFO:Creating metrics dataframe
+2026-05-01 14:38:47,674:INFO:Initializing Decision Tree Classifier
+2026-05-01 14:38:47,674:INFO:Total runtime is 0.05668859481811524 minutes
+2026-05-01 14:38:47,675:INFO:SubProcess create_model() called ==================================
+2026-05-01 14:38:47,675:INFO:Initializing create_model()
+2026-05-01 14:38:47,675:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, estimator=dt, fold=RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x1597fb550>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-05-01 14:38:47,675:INFO:Checking exceptions
+2026-05-01 14:38:47,676:INFO:Importing libraries
+2026-05-01 14:38:47,676:INFO:Copying training dataset
+2026-05-01 14:38:47,677:INFO:Defining folds
+2026-05-01 14:38:47,677:INFO:Declaring metric variables
+2026-05-01 14:38:47,678:INFO:Importing untrained model
+2026-05-01 14:38:47,679:INFO:Decision Tree Classifier Imported successfully
+2026-05-01 14:38:47,681:INFO:Starting cross validation
+2026-05-01 14:38:47,681:INFO:Cross validating with RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), n_jobs=-1
+2026-05-01 14:38:47,731:INFO:Calculating mean and std
+2026-05-01 14:38:47,731:INFO:Creating metrics dataframe
+2026-05-01 14:38:47,732:INFO:Uploading results into container
+2026-05-01 14:38:47,732:INFO:Uploading model into container now
+2026-05-01 14:38:47,732:INFO:_master_model_container: 4
+2026-05-01 14:38:47,732:INFO:_display_container: 2
+2026-05-01 14:38:47,732:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, random_state=42, splitter='best')
+2026-05-01 14:38:47,732:INFO:create_model() successfully completed......................................
+2026-05-01 14:38:47,812:INFO:SubProcess create_model() end ==================================
+2026-05-01 14:38:47,812:INFO:Creating metrics dataframe
+2026-05-01 14:38:47,814:INFO:Initializing SVM - Linear Kernel
+2026-05-01 14:38:47,814:INFO:Total runtime is 0.05902044773101807 minutes
+2026-05-01 14:38:47,815:INFO:SubProcess create_model() called ==================================
+2026-05-01 14:38:47,815:INFO:Initializing create_model()
+2026-05-01 14:38:47,815:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, estimator=svm, fold=RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x1597fb550>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-05-01 14:38:47,815:INFO:Checking exceptions
+2026-05-01 14:38:47,815:INFO:Importing libraries
+2026-05-01 14:38:47,815:INFO:Copying training dataset
+2026-05-01 14:38:47,816:INFO:Defining folds
+2026-05-01 14:38:47,816:INFO:Declaring metric variables
+2026-05-01 14:38:47,817:INFO:Importing untrained model
+2026-05-01 14:38:47,818:INFO:SVM - Linear Kernel Imported successfully
+2026-05-01 14:38:47,820:INFO:Starting cross validation
+2026-05-01 14:38:47,820:INFO:Cross validating with RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), n_jobs=-1
+2026-05-01 14:38:47,920:INFO:Calculating mean and std
+2026-05-01 14:38:47,920:INFO:Creating metrics dataframe
+2026-05-01 14:38:47,921:INFO:Uploading results into container
+2026-05-01 14:38:47,921:INFO:Uploading model into container now
+2026-05-01 14:38:47,922:INFO:_master_model_container: 5
+2026-05-01 14:38:47,922:INFO:_display_container: 2
+2026-05-01 14:38:47,922:INFO:SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.001, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=-1, penalty='l2',
+              power_t=0.5, random_state=42, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False)
+2026-05-01 14:38:47,922:INFO:create_model() successfully completed......................................
+2026-05-01 14:38:47,993:INFO:SubProcess create_model() end ==================================
+2026-05-01 14:38:47,994:INFO:Creating metrics dataframe
+2026-05-01 14:38:47,996:INFO:Initializing Ridge Classifier
+2026-05-01 14:38:47,996:INFO:Total runtime is 0.062052766482035324 minutes
+2026-05-01 14:38:47,997:INFO:SubProcess create_model() called ==================================
+2026-05-01 14:38:47,997:INFO:Initializing create_model()
+2026-05-01 14:38:47,997:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, estimator=ridge, fold=RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x1597fb550>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-05-01 14:38:47,997:INFO:Checking exceptions
+2026-05-01 14:38:47,997:INFO:Importing libraries
+2026-05-01 14:38:47,997:INFO:Copying training dataset
+2026-05-01 14:38:47,998:INFO:Defining folds
+2026-05-01 14:38:47,998:INFO:Declaring metric variables
+2026-05-01 14:38:47,999:INFO:Importing untrained model
+2026-05-01 14:38:47,999:INFO:Ridge Classifier Imported successfully
+2026-05-01 14:38:48,001:INFO:Starting cross validation
+2026-05-01 14:38:48,001:INFO:Cross validating with RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), n_jobs=-1
+2026-05-01 14:38:48,043:INFO:Calculating mean and std
+2026-05-01 14:38:48,043:INFO:Creating metrics dataframe
+2026-05-01 14:38:48,044:INFO:Uploading results into container
+2026-05-01 14:38:48,045:INFO:Uploading model into container now
+2026-05-01 14:38:48,045:INFO:_master_model_container: 6
+2026-05-01 14:38:48,045:INFO:_display_container: 2
+2026-05-01 14:38:48,045:INFO:RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+                max_iter=None, positive=False, random_state=42, solver='auto',
+                tol=0.0001)
+2026-05-01 14:38:48,045:INFO:create_model() successfully completed......................................
+2026-05-01 14:38:48,117:INFO:SubProcess create_model() end ==================================
+2026-05-01 14:38:48,117:INFO:Creating metrics dataframe
+2026-05-01 14:38:48,119:INFO:Initializing Random Forest Classifier
+2026-05-01 14:38:48,119:INFO:Total runtime is 0.06410771608352661 minutes
+2026-05-01 14:38:48,120:INFO:SubProcess create_model() called ==================================
+2026-05-01 14:38:48,120:INFO:Initializing create_model()
+2026-05-01 14:38:48,120:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, estimator=rf, fold=RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x1597fb550>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-05-01 14:38:48,120:INFO:Checking exceptions
+2026-05-01 14:38:48,120:INFO:Importing libraries
+2026-05-01 14:38:48,120:INFO:Copying training dataset
+2026-05-01 14:38:48,121:INFO:Defining folds
+2026-05-01 14:38:48,121:INFO:Declaring metric variables
+2026-05-01 14:38:48,122:INFO:Importing untrained model
+2026-05-01 14:38:48,123:INFO:Random Forest Classifier Imported successfully
+2026-05-01 14:38:48,124:INFO:Starting cross validation
+2026-05-01 14:38:48,124:INFO:Cross validating with RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), n_jobs=-1
+2026-05-01 14:38:48,483:INFO:Calculating mean and std
+2026-05-01 14:38:48,483:INFO:Creating metrics dataframe
+2026-05-01 14:38:48,484:INFO:Uploading results into container
+2026-05-01 14:38:48,484:INFO:Uploading model into container now
+2026-05-01 14:38:48,484:INFO:_master_model_container: 7
+2026-05-01 14:38:48,485:INFO:_display_container: 2
+2026-05-01 14:38:48,485:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=42, verbose=0,
+                       warm_start=False)
+2026-05-01 14:38:48,485:INFO:create_model() successfully completed......................................
+2026-05-01 14:38:48,558:INFO:SubProcess create_model() end ==================================
+2026-05-01 14:38:48,558:INFO:Creating metrics dataframe
+2026-05-01 14:38:48,560:INFO:Initializing Quadratic Discriminant Analysis
+2026-05-01 14:38:48,560:INFO:Total runtime is 0.07145421504974366 minutes
+2026-05-01 14:38:48,561:INFO:SubProcess create_model() called ==================================
+2026-05-01 14:38:48,561:INFO:Initializing create_model()
+2026-05-01 14:38:48,561:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, estimator=qda, fold=RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x1597fb550>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-05-01 14:38:48,561:INFO:Checking exceptions
+2026-05-01 14:38:48,561:INFO:Importing libraries
+2026-05-01 14:38:48,561:INFO:Copying training dataset
+2026-05-01 14:38:48,562:INFO:Defining folds
+2026-05-01 14:38:48,562:INFO:Declaring metric variables
+2026-05-01 14:38:48,563:INFO:Importing untrained model
+2026-05-01 14:38:48,564:INFO:Quadratic Discriminant Analysis Imported successfully
+2026-05-01 14:38:48,565:INFO:Starting cross validation
+2026-05-01 14:38:48,565:INFO:Cross validating with RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), n_jobs=-1
+2026-05-01 14:38:48,573:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,574:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,574:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,574:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,574:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,575:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,575:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,575:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,575:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,575:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,575:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,575:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,576:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,576:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,576:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,576:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,576:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,576:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,577:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,577:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,577:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,577:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,577:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,578:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,580:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,581:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,581:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,581:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,581:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,581:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,582:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,582:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,582:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,582:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,582:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,582:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,583:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,583:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,583:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,583:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,583:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,583:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,583:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,583:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,583:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,583:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,583:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,583:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,583:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,583:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,583:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,583:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,583:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,583:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,583:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,583:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,583:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,584:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,584:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,584:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,584:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,584:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,584:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,585:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,586:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,586:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,587:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,587:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,587:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,587:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,587:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,587:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,587:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,587:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,587:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,587:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,587:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,588:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,588:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,588:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,588:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,589:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,589:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,589:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,589:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,589:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,589:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,589:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,590:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,590:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,590:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,590:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,590:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,590:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,590:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,590:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,590:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,590:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,590:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,590:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,591:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,591:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,591:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,591:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,591:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,592:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,592:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,592:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,592:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,592:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,592:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,592:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,592:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,593:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,593:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,593:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,593:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,593:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,593:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,593:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,593:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,593:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,593:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,593:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,593:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,594:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,594:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,594:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,594:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,594:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,594:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,594:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,594:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,594:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,594:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,594:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,595:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,595:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,595:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,595:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,595:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,595:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,595:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,595:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,596:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,596:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,596:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,596:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,597:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,597:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,597:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,597:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,597:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,597:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,597:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,597:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,597:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,597:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,597:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,597:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,597:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,597:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,598:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,598:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,599:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,599:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,599:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,599:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:961: RuntimeWarning: overflow encountered in square
+  norm2.append(np.sum(X2**2, axis=1))
+
+2026-05-01 14:38:48,599:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,599:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,599:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,599:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,599:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,600:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,600:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,600:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:961: RuntimeWarning: overflow encountered in square
+  norm2.append(np.sum(X2**2, axis=1))
+
+2026-05-01 14:38:48,600:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,600:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,600:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,600:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,600:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,600:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,600:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,600:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,600:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,600:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,601:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,601:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:935: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2026-05-01 14:38:48,601:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,602:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,602:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,602:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: divide by zero encountered in power
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,603:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:960: RuntimeWarning: invalid value encountered in multiply
+  X2 = np.dot(Xm, R * (S ** (-0.5)))
+
+2026-05-01 14:38:48,603:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/discriminant_analysis.py:963: RuntimeWarning: divide by zero encountered in log
+  u = np.asarray([np.sum(np.log(s)) for s in self.scalings_])
+
+2026-05-01 14:38:48,603:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py:204: FitFailedWarning: Metric 'make_scorer(roc_auc_score, response_method=('decision_function', 'predict_proba'), average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 196, in _score
+    return super()._score(
+           ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_scorer.py", line 350, in _score
+    return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/metrics.py", line 144, in __call__
+    return self.score_func(y_true, y_pred, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 619, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1049, in check_array
+    _assert_all_finite(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.
+
+  warnings.warn(
+
+2026-05-01 14:38:48,606:INFO:Calculating mean and std
+2026-05-01 14:38:48,607:INFO:Creating metrics dataframe
+2026-05-01 14:38:48,607:INFO:Uploading results into container
+2026-05-01 14:38:48,607:INFO:Uploading model into container now
+2026-05-01 14:38:48,608:INFO:_master_model_container: 8
+2026-05-01 14:38:48,608:INFO:_display_container: 2
+2026-05-01 14:38:48,608:INFO:QuadraticDiscriminantAnalysis(priors=None, reg_param=0.0,
+                              store_covariance=False, tol=0.0001)
+2026-05-01 14:38:48,608:INFO:create_model() successfully completed......................................
+2026-05-01 14:38:48,709:INFO:SubProcess create_model() end ==================================
+2026-05-01 14:38:48,709:INFO:Creating metrics dataframe
+2026-05-01 14:38:48,713:INFO:Initializing Ada Boost Classifier
+2026-05-01 14:38:48,713:INFO:Total runtime is 0.07399549881617229 minutes
+2026-05-01 14:38:48,714:INFO:SubProcess create_model() called ==================================
+2026-05-01 14:38:48,714:INFO:Initializing create_model()
+2026-05-01 14:38:48,714:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, estimator=ada, fold=RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x1597fb550>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-05-01 14:38:48,714:INFO:Checking exceptions
+2026-05-01 14:38:48,714:INFO:Importing libraries
+2026-05-01 14:38:48,714:INFO:Copying training dataset
+2026-05-01 14:38:48,715:INFO:Defining folds
+2026-05-01 14:38:48,715:INFO:Declaring metric variables
+2026-05-01 14:38:48,716:INFO:Importing untrained model
+2026-05-01 14:38:48,717:INFO:Ada Boost Classifier Imported successfully
+2026-05-01 14:38:48,720:INFO:Starting cross validation
+2026-05-01 14:38:48,720:INFO:Cross validating with RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), n_jobs=-1
+2026-05-01 14:38:48,726:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,728:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,729:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,729:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,730:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,731:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,736:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,738:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,748:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,750:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,768:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,771:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,773:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,773:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,775:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,777:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,780:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,780:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,782:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,788:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,810:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,815:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,817:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,840:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,843:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/ensemble/_weight_boosting.py:519: FutureWarning: The SAMME.R algorithm (the default) is deprecated and will be removed in 1.6. Use the SAMME algorithm to circumvent this warning.
+  warnings.warn(
+
+2026-05-01 14:38:48,873:INFO:Calculating mean and std
+2026-05-01 14:38:48,873:INFO:Creating metrics dataframe
+2026-05-01 14:38:48,874:INFO:Uploading results into container
+2026-05-01 14:38:48,874:INFO:Uploading model into container now
+2026-05-01 14:38:48,874:INFO:_master_model_container: 9
+2026-05-01 14:38:48,874:INFO:_display_container: 2
+2026-05-01 14:38:48,874:INFO:AdaBoostClassifier(algorithm='SAMME.R', estimator=None, learning_rate=1.0,
+                   n_estimators=50, random_state=42)
+2026-05-01 14:38:48,874:INFO:create_model() successfully completed......................................
+2026-05-01 14:38:48,947:INFO:SubProcess create_model() end ==================================
+2026-05-01 14:38:48,947:INFO:Creating metrics dataframe
+2026-05-01 14:38:48,949:INFO:Initializing Gradient Boosting Classifier
+2026-05-01 14:38:48,949:INFO:Total runtime is 0.07793741623560588 minutes
+2026-05-01 14:38:48,950:INFO:SubProcess create_model() called ==================================
+2026-05-01 14:38:48,950:INFO:Initializing create_model()
+2026-05-01 14:38:48,950:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, estimator=gbc, fold=RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x1597fb550>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-05-01 14:38:48,950:INFO:Checking exceptions
+2026-05-01 14:38:48,950:INFO:Importing libraries
+2026-05-01 14:38:48,950:INFO:Copying training dataset
+2026-05-01 14:38:48,951:INFO:Defining folds
+2026-05-01 14:38:48,951:INFO:Declaring metric variables
+2026-05-01 14:38:48,952:INFO:Importing untrained model
+2026-05-01 14:38:48,953:INFO:Gradient Boosting Classifier Imported successfully
+2026-05-01 14:38:48,955:INFO:Starting cross validation
+2026-05-01 14:38:48,955:INFO:Cross validating with RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), n_jobs=-1
+2026-05-01 14:38:49,083:INFO:Calculating mean and std
+2026-05-01 14:38:49,083:INFO:Creating metrics dataframe
+2026-05-01 14:38:49,084:INFO:Uploading results into container
+2026-05-01 14:38:49,084:INFO:Uploading model into container now
+2026-05-01 14:38:49,085:INFO:_master_model_container: 10
+2026-05-01 14:38:49,085:INFO:_display_container: 2
+2026-05-01 14:38:49,085:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=42, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+2026-05-01 14:38:49,085:INFO:create_model() successfully completed......................................
+2026-05-01 14:38:49,167:INFO:SubProcess create_model() end ==================================
+2026-05-01 14:38:49,167:INFO:Creating metrics dataframe
+2026-05-01 14:38:49,170:INFO:Initializing Linear Discriminant Analysis
+2026-05-01 14:38:49,170:INFO:Total runtime is 0.08161499500274659 minutes
+2026-05-01 14:38:49,171:INFO:SubProcess create_model() called ==================================
+2026-05-01 14:38:49,171:INFO:Initializing create_model()
+2026-05-01 14:38:49,171:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, estimator=lda, fold=RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x1597fb550>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-05-01 14:38:49,171:INFO:Checking exceptions
+2026-05-01 14:38:49,171:INFO:Importing libraries
+2026-05-01 14:38:49,171:INFO:Copying training dataset
+2026-05-01 14:38:49,172:INFO:Defining folds
+2026-05-01 14:38:49,172:INFO:Declaring metric variables
+2026-05-01 14:38:49,173:INFO:Importing untrained model
+2026-05-01 14:38:49,173:INFO:Linear Discriminant Analysis Imported successfully
+2026-05-01 14:38:49,175:INFO:Starting cross validation
+2026-05-01 14:38:49,175:INFO:Cross validating with RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), n_jobs=-1
+2026-05-01 14:38:49,218:INFO:Calculating mean and std
+2026-05-01 14:38:49,219:INFO:Creating metrics dataframe
+2026-05-01 14:38:49,219:INFO:Uploading results into container
+2026-05-01 14:38:49,220:INFO:Uploading model into container now
+2026-05-01 14:38:49,220:INFO:_master_model_container: 11
+2026-05-01 14:38:49,220:INFO:_display_container: 2
+2026-05-01 14:38:49,220:INFO:LinearDiscriminantAnalysis(covariance_estimator=None, n_components=None,
+                           priors=None, shrinkage=None, solver='svd',
+                           store_covariance=False, tol=0.0001)
+2026-05-01 14:38:49,220:INFO:create_model() successfully completed......................................
+2026-05-01 14:38:49,291:INFO:SubProcess create_model() end ==================================
+2026-05-01 14:38:49,292:INFO:Creating metrics dataframe
+2026-05-01 14:38:49,294:INFO:Initializing Extra Trees Classifier
+2026-05-01 14:38:49,294:INFO:Total runtime is 0.08368294636408488 minutes
+2026-05-01 14:38:49,295:INFO:SubProcess create_model() called ==================================
+2026-05-01 14:38:49,295:INFO:Initializing create_model()
+2026-05-01 14:38:49,295:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, estimator=et, fold=RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x1597fb550>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-05-01 14:38:49,295:INFO:Checking exceptions
+2026-05-01 14:38:49,295:INFO:Importing libraries
+2026-05-01 14:38:49,295:INFO:Copying training dataset
+2026-05-01 14:38:49,296:INFO:Defining folds
+2026-05-01 14:38:49,296:INFO:Declaring metric variables
+2026-05-01 14:38:49,297:INFO:Importing untrained model
+2026-05-01 14:38:49,297:INFO:Extra Trees Classifier Imported successfully
+2026-05-01 14:38:49,299:INFO:Starting cross validation
+2026-05-01 14:38:49,299:INFO:Cross validating with RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), n_jobs=-1
+2026-05-01 14:38:49,559:INFO:Calculating mean and std
+2026-05-01 14:38:49,559:INFO:Creating metrics dataframe
+2026-05-01 14:38:49,560:INFO:Uploading results into container
+2026-05-01 14:38:49,560:INFO:Uploading model into container now
+2026-05-01 14:38:49,560:INFO:_master_model_container: 12
+2026-05-01 14:38:49,560:INFO:_display_container: 2
+2026-05-01 14:38:49,561:INFO:ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                     oob_score=False, random_state=42, verbose=0,
+                     warm_start=False)
+2026-05-01 14:38:49,561:INFO:create_model() successfully completed......................................
+2026-05-01 14:38:49,633:INFO:SubProcess create_model() end ==================================
+2026-05-01 14:38:49,633:INFO:Creating metrics dataframe
+2026-05-01 14:38:49,636:INFO:Initializing Extreme Gradient Boosting
+2026-05-01 14:38:49,636:INFO:Total runtime is 0.08937774896621704 minutes
+2026-05-01 14:38:49,636:INFO:SubProcess create_model() called ==================================
+2026-05-01 14:38:49,637:INFO:Initializing create_model()
+2026-05-01 14:38:49,637:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, estimator=xgboost, fold=RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x1597fb550>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-05-01 14:38:49,637:INFO:Checking exceptions
+2026-05-01 14:38:49,637:INFO:Importing libraries
+2026-05-01 14:38:49,637:INFO:Copying training dataset
+2026-05-01 14:38:49,638:INFO:Defining folds
+2026-05-01 14:38:49,638:INFO:Declaring metric variables
+2026-05-01 14:38:49,638:INFO:Importing untrained model
+2026-05-01 14:38:49,639:INFO:Extreme Gradient Boosting Imported successfully
+2026-05-01 14:38:49,641:INFO:Starting cross validation
+2026-05-01 14:38:49,641:INFO:Cross validating with RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), n_jobs=-1
+2026-05-01 14:38:49,737:INFO:Calculating mean and std
+2026-05-01 14:38:49,737:INFO:Creating metrics dataframe
+2026-05-01 14:38:49,738:INFO:Uploading results into container
+2026-05-01 14:38:49,738:INFO:Uploading model into container now
+2026-05-01 14:38:49,738:INFO:_master_model_container: 13
+2026-05-01 14:38:49,738:INFO:_display_container: 2
+2026-05-01 14:38:49,739:INFO:XGBClassifier(base_score=None, booster='gbtree', callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, device='cpu', early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              feature_weights=None, gamma=None, grow_policy=None,
+              importance_type=None, interaction_constraints=None,
+              learning_rate=None, max_bin=None, max_cat_threshold=None,
+              max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+              max_leaves=None, min_child_weight=None, missing=nan,
+              monotone_constraints=None, multi_strategy=None, n_estimators=None,
+              n_jobs=-1, num_parallel_tree=None, ...)
+2026-05-01 14:38:49,739:INFO:create_model() successfully completed......................................
+2026-05-01 14:38:49,810:INFO:SubProcess create_model() end ==================================
+2026-05-01 14:38:49,810:INFO:Creating metrics dataframe
+2026-05-01 14:38:49,813:INFO:Initializing Light Gradient Boosting Machine
+2026-05-01 14:38:49,813:INFO:Total runtime is 0.0923408309618632 minutes
+2026-05-01 14:38:49,814:INFO:SubProcess create_model() called ==================================
+2026-05-01 14:38:49,814:INFO:Initializing create_model()
+2026-05-01 14:38:49,814:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, estimator=lightgbm, fold=RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x1597fb550>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-05-01 14:38:49,814:INFO:Checking exceptions
+2026-05-01 14:38:49,814:INFO:Importing libraries
+2026-05-01 14:38:49,814:INFO:Copying training dataset
+2026-05-01 14:38:49,815:INFO:Defining folds
+2026-05-01 14:38:49,815:INFO:Declaring metric variables
+2026-05-01 14:38:49,816:INFO:Importing untrained model
+2026-05-01 14:38:49,817:INFO:Light Gradient Boosting Machine Imported successfully
+2026-05-01 14:38:49,818:INFO:Starting cross validation
+2026-05-01 14:38:49,819:INFO:Cross validating with RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), n_jobs=-1
+2026-05-01 14:38:50,628:INFO:Calculating mean and std
+2026-05-01 14:38:50,629:INFO:Creating metrics dataframe
+2026-05-01 14:38:50,629:INFO:Uploading results into container
+2026-05-01 14:38:50,630:INFO:Uploading model into container now
+2026-05-01 14:38:50,630:INFO:_master_model_container: 14
+2026-05-01 14:38:50,630:INFO:_display_container: 2
+2026-05-01 14:38:50,630:INFO:LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=42, reg_alpha=0.0, reg_lambda=0.0, subsample=1.0,
+               subsample_for_bin=200000, subsample_freq=0)
+2026-05-01 14:38:50,630:INFO:create_model() successfully completed......................................
+2026-05-01 14:38:50,701:INFO:SubProcess create_model() end ==================================
+2026-05-01 14:38:50,701:INFO:Creating metrics dataframe
+2026-05-01 14:38:50,704:INFO:Initializing CatBoost Classifier
+2026-05-01 14:38:50,705:INFO:Total runtime is 0.10719271500905354 minutes
+2026-05-01 14:38:50,705:INFO:SubProcess create_model() called ==================================
+2026-05-01 14:38:50,706:INFO:Initializing create_model()
+2026-05-01 14:38:50,706:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, estimator=catboost, fold=RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x1597fb550>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-05-01 14:38:50,706:INFO:Checking exceptions
+2026-05-01 14:38:50,706:INFO:Importing libraries
+2026-05-01 14:38:50,706:INFO:Copying training dataset
+2026-05-01 14:38:50,707:INFO:Defining folds
+2026-05-01 14:38:50,707:INFO:Declaring metric variables
+2026-05-01 14:38:50,707:INFO:Importing untrained model
+2026-05-01 14:38:50,708:INFO:CatBoost Classifier Imported successfully
+2026-05-01 14:38:50,709:INFO:Starting cross validation
+2026-05-01 14:38:50,710:INFO:Cross validating with RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), n_jobs=-1
+2026-05-01 14:38:53,279:INFO:Calculating mean and std
+2026-05-01 14:38:53,280:INFO:Creating metrics dataframe
+2026-05-01 14:38:53,282:INFO:Uploading results into container
+2026-05-01 14:38:53,282:INFO:Uploading model into container now
+2026-05-01 14:38:53,283:INFO:_master_model_container: 15
+2026-05-01 14:38:53,283:INFO:_display_container: 2
+2026-05-01 14:38:53,283:INFO:CatBoostClassifier(border_count=254, random_state=42, task_type='CPU', verbose=False)
+2026-05-01 14:38:53,283:INFO:create_model() successfully completed......................................
+2026-05-01 14:38:53,438:INFO:SubProcess create_model() end ==================================
+2026-05-01 14:38:53,438:INFO:Creating metrics dataframe
+2026-05-01 14:38:53,441:INFO:Initializing Dummy Classifier
+2026-05-01 14:38:53,441:INFO:Total runtime is 0.1528042475382487 minutes
+2026-05-01 14:38:53,442:INFO:SubProcess create_model() called ==================================
+2026-05-01 14:38:53,442:INFO:Initializing create_model()
+2026-05-01 14:38:53,442:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, estimator=dummy, fold=RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x1597fb550>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-05-01 14:38:53,442:INFO:Checking exceptions
+2026-05-01 14:38:53,442:INFO:Importing libraries
+2026-05-01 14:38:53,442:INFO:Copying training dataset
+2026-05-01 14:38:53,444:INFO:Defining folds
+2026-05-01 14:38:53,444:INFO:Declaring metric variables
+2026-05-01 14:38:53,445:INFO:Importing untrained model
+2026-05-01 14:38:53,446:INFO:Dummy Classifier Imported successfully
+2026-05-01 14:38:53,447:INFO:Starting cross validation
+2026-05-01 14:38:53,447:INFO:Cross validating with RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), n_jobs=-1
+2026-05-01 14:38:53,456:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,456:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,460:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,462:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,463:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,465:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,468:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,468:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,468:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,469:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,471:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,475:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,477:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,478:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,478:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,480:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,481:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,481:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,481:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,481:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,482:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,484:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,485:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,485:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,486:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2026-05-01 14:38:53,490:INFO:Calculating mean and std
+2026-05-01 14:38:53,490:INFO:Creating metrics dataframe
+2026-05-01 14:38:53,490:INFO:Uploading results into container
+2026-05-01 14:38:53,490:INFO:Uploading model into container now
+2026-05-01 14:38:53,491:INFO:_master_model_container: 16
+2026-05-01 14:38:53,491:INFO:_display_container: 2
+2026-05-01 14:38:53,491:INFO:DummyClassifier(constant=None, random_state=42, strategy='prior')
+2026-05-01 14:38:53,491:INFO:create_model() successfully completed......................................
+2026-05-01 14:38:53,565:INFO:SubProcess create_model() end ==================================
+2026-05-01 14:38:53,565:INFO:Creating metrics dataframe
+2026-05-01 14:38:53,569:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/pycaret_experiment/supervised_experiment.py:339: FutureWarning: Styler.applymap has been deprecated. Use Styler.map instead.
+  .applymap(highlight_cols, subset=["TT (Sec)"])
+
+2026-05-01 14:38:53,571:INFO:Initializing create_model()
+2026-05-01 14:38:53,571:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, estimator=CatBoostClassifier(border_count=254, random_state=42, task_type='CPU', verbose=False), fold=RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-05-01 14:38:53,571:INFO:Checking exceptions
+2026-05-01 14:38:53,572:INFO:Importing libraries
+2026-05-01 14:38:53,572:INFO:Copying training dataset
+2026-05-01 14:38:53,573:INFO:Defining folds
+2026-05-01 14:38:53,573:INFO:Declaring metric variables
+2026-05-01 14:38:53,573:INFO:Importing untrained model
+2026-05-01 14:38:53,573:INFO:Declaring custom model
+2026-05-01 14:38:53,573:INFO:CatBoost Classifier Imported successfully
+2026-05-01 14:38:53,573:INFO:Cross validation set to False
+2026-05-01 14:38:53,573:INFO:Fitting Model
+2026-05-01 14:38:54,211:INFO:CatBoostClassifier(border_count=254, random_state=42, task_type='CPU', verbose=False)
+2026-05-01 14:38:54,211:INFO:create_model() successfully completed......................................
+2026-05-01 14:38:54,289:INFO:_master_model_container: 16
+2026-05-01 14:38:54,289:INFO:_display_container: 2
+2026-05-01 14:38:54,289:INFO:CatBoostClassifier(border_count=254, random_state=42, task_type='CPU', verbose=False)
+2026-05-01 14:38:54,289:INFO:compare_models() successfully completed......................................
+2026-05-01 14:39:18,385:INFO:Initializing tune_model()
+2026-05-01 14:39:18,386:INFO:tune_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, estimator=CatBoostClassifier(border_count=254, random_state=42, task_type='CPU', verbose=False), fold=None, round=4, n_iter=50, custom_grid=None, optimize=auc, custom_scorer=None, search_library=optuna, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={})
+2026-05-01 14:39:18,386:INFO:Checking exceptions
+2026-05-01 14:39:18,386:INFO:Soft dependency imported: optuna: 4.8.0
+2026-05-01 14:39:18,444:INFO:Copying training dataset
+2026-05-01 14:39:18,446:INFO:Checking base model
+2026-05-01 14:39:18,446:INFO:Base model : CatBoost Classifier
+2026-05-01 14:39:18,448:INFO:Declaring metric variables
+2026-05-01 14:39:18,449:INFO:Defining Hyperparameters
+2026-05-01 14:39:18,623:INFO:Tuning with n_jobs=-1
+2026-05-01 14:39:18,626:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/optuna/_experimental.py:33: ExperimentalWarning: Argument ``multivariate`` is an experimental feature. The interface can change in the future.
+  optuna_warn(
+
+2026-05-01 14:39:18,626:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/optuna/_experimental.py:33: ExperimentalWarning: Argument ``constant_liar`` is an experimental feature. The interface can change in the future.
+  optuna_warn(
+
+2026-05-01 14:39:18,626:INFO:Initializing optuna.integration.OptunaSearchCV
+2026-05-01 14:39:18,631:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/pycaret_experiment/supervised_experiment.py:2458: ExperimentalWarning: OptunaSearchCV is experimental (supported from v0.17.0). The interface can change in the future.
+  model_grid = optuna.integration.OptunaSearchCV(  # type: ignore
+
+2026-05-01 14:40:12,794:INFO:best_params: {'actual_estimator__eta': 0.026350951878692172, 'actual_estimator__depth': 8, 'actual_estimator__n_estimators': 220, 'actual_estimator__random_strength': 0.7376666838942627, 'actual_estimator__l2_leaf_reg': 12}
+2026-05-01 14:40:12,797:INFO:Hyperparameter search completed
+2026-05-01 14:40:12,798:INFO:SubProcess create_model() called ==================================
+2026-05-01 14:40:12,798:INFO:Initializing create_model()
+2026-05-01 14:40:12,798:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, estimator=CatBoostClassifier(border_count=254, random_state=42, task_type='CPU', verbose=False), fold=RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x158494f50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={'eta': 0.026350951878692172, 'depth': 8, 'n_estimators': 220, 'random_strength': 0.7376666838942627, 'l2_leaf_reg': 12})
+2026-05-01 14:40:12,798:INFO:Checking exceptions
+2026-05-01 14:40:12,798:INFO:Importing libraries
+2026-05-01 14:40:12,798:INFO:Copying training dataset
+2026-05-01 14:40:12,799:INFO:Defining folds
+2026-05-01 14:40:12,799:INFO:Declaring metric variables
+2026-05-01 14:40:12,801:INFO:Importing untrained model
+2026-05-01 14:40:12,801:INFO:Declaring custom model
+2026-05-01 14:40:12,802:INFO:CatBoost Classifier Imported successfully
+2026-05-01 14:40:12,804:INFO:Starting cross validation
+2026-05-01 14:40:12,805:INFO:Cross validating with RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), n_jobs=-1
+2026-05-01 14:40:14,086:INFO:Calculating mean and std
+2026-05-01 14:40:14,087:INFO:Creating metrics dataframe
+2026-05-01 14:40:14,089:INFO:Finalizing model
+2026-05-01 14:40:14,428:INFO:Uploading results into container
+2026-05-01 14:40:14,429:INFO:Uploading model into container now
+2026-05-01 14:40:14,429:INFO:_master_model_container: 17
+2026-05-01 14:40:14,429:INFO:_display_container: 3
+2026-05-01 14:40:14,429:INFO:CatBoostClassifier(border_count=254, depth=8, eta=0.026350951878692172, l2_leaf_reg=12, n_estimators=220, random_state=42, random_strength=0.7376666838942627, task_type='CPU', verbose=False)
+2026-05-01 14:40:14,430:INFO:create_model() successfully completed......................................
+2026-05-01 14:40:14,658:INFO:SubProcess create_model() end ==================================
+2026-05-01 14:40:14,658:INFO:choose_better activated
+2026-05-01 14:40:14,659:INFO:SubProcess create_model() called ==================================
+2026-05-01 14:40:14,659:INFO:Initializing create_model()
+2026-05-01 14:40:14,660:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, estimator=CatBoostClassifier(border_count=254, random_state=42, task_type='CPU', verbose=False), fold=RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-05-01 14:40:14,660:INFO:Checking exceptions
+2026-05-01 14:40:14,660:INFO:Importing libraries
+2026-05-01 14:40:14,660:INFO:Copying training dataset
+2026-05-01 14:40:14,661:INFO:Defining folds
+2026-05-01 14:40:14,661:INFO:Declaring metric variables
+2026-05-01 14:40:14,661:INFO:Importing untrained model
+2026-05-01 14:40:14,661:INFO:Declaring custom model
+2026-05-01 14:40:14,661:INFO:CatBoost Classifier Imported successfully
+2026-05-01 14:40:14,662:INFO:Starting cross validation
+2026-05-01 14:40:14,662:INFO:Cross validating with RepeatedStratifiedKFold(n_repeats=5, n_splits=5, random_state=42), n_jobs=-1
+2026-05-01 14:40:17,078:INFO:Calculating mean and std
+2026-05-01 14:40:17,078:INFO:Creating metrics dataframe
+2026-05-01 14:40:17,079:INFO:Finalizing model
+2026-05-01 14:40:17,663:INFO:Uploading results into container
+2026-05-01 14:40:17,663:INFO:Uploading model into container now
+2026-05-01 14:40:17,664:INFO:_master_model_container: 18
+2026-05-01 14:40:17,664:INFO:_display_container: 4
+2026-05-01 14:40:17,664:INFO:CatBoostClassifier(border_count=254, random_state=42, task_type='CPU', verbose=False)
+2026-05-01 14:40:17,664:INFO:create_model() successfully completed......................................
+2026-05-01 14:40:17,735:INFO:SubProcess create_model() end ==================================
+2026-05-01 14:40:17,735:INFO:CatBoostClassifier(border_count=254, random_state=42, task_type='CPU', verbose=False) result for AUC is 0.9616
+2026-05-01 14:40:17,736:INFO:CatBoostClassifier(border_count=254, depth=8, eta=0.026350951878692172, l2_leaf_reg=12, n_estimators=220, random_state=42, random_strength=0.7376666838942627, task_type='CPU', verbose=False) result for AUC is 0.9617
+2026-05-01 14:40:17,736:INFO:CatBoostClassifier(border_count=254, depth=8, eta=0.026350951878692172, l2_leaf_reg=12, n_estimators=220, random_state=42, random_strength=0.7376666838942627, task_type='CPU', verbose=False) is best model
+2026-05-01 14:40:17,736:INFO:choose_better completed
+2026-05-01 14:40:17,739:INFO:_master_model_container: 18
+2026-05-01 14:40:17,739:INFO:_display_container: 3
+2026-05-01 14:40:17,739:INFO:CatBoostClassifier(border_count=254, depth=8, eta=0.026350951878692172, l2_leaf_reg=12, n_estimators=220, random_state=42, random_strength=0.7376666838942627, task_type='CPU', verbose=False)
+2026-05-01 14:40:17,739:INFO:tune_model() successfully completed......................................
+2026-05-01 14:40:43,348:INFO:Initializing plot_model()
+2026-05-01 14:40:43,350:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x15932d2d0>, estimator=CatBoostClassifier(border_count=254, depth=8, eta=0.026350951878692172, l2_leaf_reg=12, n_estimators=220, random_state=42, random_strength=0.7376666838942627, task_type='CPU', verbose=False), plot=confusion_matrix, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2026-05-01 14:40:43,350:INFO:Checking exceptions
+2026-05-01 14:40:43,352:INFO:Preloading libraries
+2026-05-01 14:40:43,353:INFO:Copying training dataset
+2026-05-01 14:40:43,353:INFO:Plot type: confusion_matrix
+2026-05-01 14:40:43,363:INFO:Fitting Model
+2026-05-01 14:40:43,367:INFO:Scoring test/hold-out set
+2026-05-01 14:40:43,401:INFO:Visual Rendered Successfully
+2026-05-01 14:40:43,522:INFO:plot_model() successfully completed......................................
+2026-05-01 15:11:25,587:WARNING:/var/folders/11/3c5hy62x5sbcbgmx_l91krkr0000gn/T/ipykernel_9892/1476685359.py:4: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap.summary_plot(shap_values, X_test_df, feature_names=feature_names, plot_type="bar", show=False)
+
+2026-05-01 15:12:53,897:WARNING:/var/folders/11/3c5hy62x5sbcbgmx_l91krkr0000gn/T/ipykernel_9892/1503962740.py:3: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap.summary_plot(shap_values, X_test_df, feature_names=feature_names, plot_type="dot", show=False)
+
+2026-05-01 15:15:45,921:WARNING:/var/folders/11/3c5hy62x5sbcbgmx_l91krkr0000gn/T/ipykernel_9892/3214093489.py:4: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap.summary_plot(shap_values, X_test_df, feature_names=feature_names, plot_type="bar", show=False, color='orange')
+
+2026-05-01 15:15:56,612:WARNING:/var/folders/11/3c5hy62x5sbcbgmx_l91krkr0000gn/T/ipykernel_9892/2522920728.py:4: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap.summary_plot(shap_values, X_test_df, feature_names=feature_names, plot_type="bar", show=False, color='darkorange')
+
