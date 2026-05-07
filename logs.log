@@ -48993,3 +48993,147 @@ ValueError: Input contains NaN.
 2026-05-08 00:04:28,345:WARNING:/var/folders/11/3c5hy62x5sbcbgmx_l91krkr0000gn/T/ipykernel_72489/1503962740.py:3: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
   shap.summary_plot(shap_values, X_test_df, feature_names=feature_names, plot_type="dot", show=False)
 
+2026-05-08 00:37:42,371:INFO:Initializing interpret_model()
+2026-05-08 00:37:42,375:INFO:interpret_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x35479dad0>, estimator=CatBoostClassifier(border_count=254, depth=4, eta=0.0816174215009435, l2_leaf_reg=33, n_estimators=75, random_state=42, random_strength=0.4588433785517812, task_type='CPU', verbose=False), plot=summary, feature=None, observation=None, use_train_data=False, X_new_sample=None, y_new_sample=None, save=False, kwargs={})
+2026-05-08 00:37:42,375:INFO:Checking exceptions
+2026-05-08 00:37:42,376:INFO:Soft dependency imported: shap: 0.51.0
+2026-05-08 00:37:42,383:INFO:plot type: summary
+2026-05-08 00:37:42,383:INFO:Creating TreeExplainer
+2026-05-08 00:37:42,387:INFO:Compiling shap values
+2026-05-08 00:37:42,389:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/pycaret_experiment/supervised_experiment.py:4145: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap_plot = shap.summary_plot(shap_values, test_X, show=show, **kwargs)
+
+2026-05-08 00:37:42,495:INFO:Visual Rendered Successfully
+2026-05-08 00:37:42,495:INFO:interpret_model() successfully completed......................................
+2026-05-08 00:37:42,652:INFO:Initializing interpret_model()
+2026-05-08 00:37:42,652:INFO:interpret_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x35479dad0>, estimator=CatBoostClassifier(border_count=254, depth=4, eta=0.0816174215009435, l2_leaf_reg=33, n_estimators=75, random_state=42, random_strength=0.4588433785517812, task_type='CPU', verbose=False), plot=correlation, feature=None, observation=None, use_train_data=False, X_new_sample=None, y_new_sample=None, save=False, kwargs={})
+2026-05-08 00:37:42,652:INFO:Checking exceptions
+2026-05-08 00:37:42,652:INFO:Soft dependency imported: shap: 0.51.0
+2026-05-08 00:37:42,655:INFO:plot type: correlation
+2026-05-08 00:37:42,655:WARNING:No feature passed. Default value of feature used for correlation plot: hb_ratio
+2026-05-08 00:37:42,655:INFO:Creating TreeExplainer
+2026-05-08 00:37:42,658:INFO:Compiling shap values
+2026-05-08 00:37:42,660:INFO:model type detected: type 2
+2026-05-08 00:37:42,700:INFO:Visual Rendered Successfully
+2026-05-08 00:37:42,700:INFO:interpret_model() successfully completed......................................
+2026-05-08 00:38:57,108:INFO:Initializing interpret_model()
+2026-05-08 00:38:57,108:INFO:interpret_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x35479dad0>, estimator=CatBoostClassifier(border_count=254, depth=4, eta=0.0816174215009435, l2_leaf_reg=33, n_estimators=75, random_state=42, random_strength=0.4588433785517812, task_type='CPU', verbose=False), plot=summary, feature=None, observation=None, use_train_data=False, X_new_sample=None, y_new_sample=None, save=False, kwargs={})
+2026-05-08 00:38:57,108:INFO:Checking exceptions
+2026-05-08 00:38:57,108:INFO:Soft dependency imported: shap: 0.51.0
+2026-05-08 00:38:57,117:INFO:plot type: summary
+2026-05-08 00:38:57,117:INFO:Creating TreeExplainer
+2026-05-08 00:38:57,126:INFO:Compiling shap values
+2026-05-08 00:38:57,129:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/pycaret_experiment/supervised_experiment.py:4145: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap_plot = shap.summary_plot(shap_values, test_X, show=show, **kwargs)
+
+2026-05-08 00:38:57,235:INFO:Visual Rendered Successfully
+2026-05-08 00:38:57,235:INFO:interpret_model() successfully completed......................................
+2026-05-08 00:39:18,223:INFO:Initializing interpret_model()
+2026-05-08 00:39:18,224:INFO:interpret_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x35479dad0>, estimator=CatBoostClassifier(border_count=254, depth=4, eta=0.0816174215009435, l2_leaf_reg=33, n_estimators=75, random_state=42, random_strength=0.4588433785517812, task_type='CPU', verbose=False), plot=summary, feature=None, observation=None, use_train_data=False, X_new_sample=None, y_new_sample=None, save=False, kwargs={})
+2026-05-08 00:39:18,224:INFO:Checking exceptions
+2026-05-08 00:39:18,225:INFO:Soft dependency imported: shap: 0.51.0
+2026-05-08 00:39:18,232:INFO:plot type: summary
+2026-05-08 00:39:18,232:INFO:Creating TreeExplainer
+2026-05-08 00:39:18,237:INFO:Compiling shap values
+2026-05-08 00:39:18,243:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/pycaret_experiment/supervised_experiment.py:4145: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap_plot = shap.summary_plot(shap_values, test_X, show=show, **kwargs)
+
+2026-05-08 00:39:18,346:INFO:Visual Rendered Successfully
+2026-05-08 00:39:18,346:INFO:interpret_model() successfully completed......................................
+2026-05-08 00:39:46,181:INFO:Initializing interpret_model()
+2026-05-08 00:39:46,184:INFO:interpret_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x35479dad0>, estimator=CatBoostClassifier(border_count=254, depth=4, eta=0.0816174215009435, l2_leaf_reg=33, n_estimators=75, random_state=42, random_strength=0.4588433785517812, task_type='CPU', verbose=False), plot=summary, feature=None, observation=None, use_train_data=False, X_new_sample=None, y_new_sample=None, save=False, kwargs={})
+2026-05-08 00:39:46,185:INFO:Checking exceptions
+2026-05-08 00:39:46,185:INFO:Soft dependency imported: shap: 0.51.0
+2026-05-08 00:39:46,188:INFO:plot type: summary
+2026-05-08 00:39:46,188:INFO:Creating TreeExplainer
+2026-05-08 00:39:46,191:INFO:Compiling shap values
+2026-05-08 00:39:46,193:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/pycaret_experiment/supervised_experiment.py:4145: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap_plot = shap.summary_plot(shap_values, test_X, show=show, **kwargs)
+
+2026-05-08 00:39:46,290:INFO:Visual Rendered Successfully
+2026-05-08 00:39:46,290:INFO:interpret_model() successfully completed......................................
+2026-05-08 00:41:19,217:INFO:Initializing interpret_model()
+2026-05-08 00:41:19,220:INFO:interpret_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x35479dad0>, estimator=CatBoostClassifier(border_count=254, depth=4, eta=0.0816174215009435, l2_leaf_reg=33, n_estimators=75, random_state=42, random_strength=0.4588433785517812, task_type='CPU', verbose=False), plot=summary, feature=None, observation=None, use_train_data=False, X_new_sample=None, y_new_sample=None, save=False, kwargs={})
+2026-05-08 00:41:19,220:INFO:Checking exceptions
+2026-05-08 00:41:19,220:INFO:Soft dependency imported: shap: 0.51.0
+2026-05-08 00:41:19,223:INFO:plot type: summary
+2026-05-08 00:41:19,223:INFO:Creating TreeExplainer
+2026-05-08 00:41:19,226:INFO:Compiling shap values
+2026-05-08 00:41:19,228:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/pycaret_experiment/supervised_experiment.py:4145: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap_plot = shap.summary_plot(shap_values, test_X, show=show, **kwargs)
+
+2026-05-08 00:41:19,326:INFO:Visual Rendered Successfully
+2026-05-08 00:41:19,326:INFO:interpret_model() successfully completed......................................
+2026-05-08 00:41:32,636:INFO:Initializing interpret_model()
+2026-05-08 00:41:32,636:INFO:interpret_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x35479dad0>, estimator=CatBoostClassifier(border_count=254, depth=4, eta=0.0816174215009435, l2_leaf_reg=33, n_estimators=75, random_state=42, random_strength=0.4588433785517812, task_type='CPU', verbose=False), plot=summary, feature=None, observation=None, use_train_data=False, X_new_sample=None, y_new_sample=None, save=False, kwargs={})
+2026-05-08 00:41:32,636:INFO:Checking exceptions
+2026-05-08 00:41:32,636:INFO:Soft dependency imported: shap: 0.51.0
+2026-05-08 00:41:32,641:INFO:plot type: summary
+2026-05-08 00:41:32,641:INFO:Creating TreeExplainer
+2026-05-08 00:41:32,645:INFO:Compiling shap values
+2026-05-08 00:41:32,647:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/pycaret_experiment/supervised_experiment.py:4145: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap_plot = shap.summary_plot(shap_values, test_X, show=show, **kwargs)
+
+2026-05-08 00:41:32,768:INFO:Visual Rendered Successfully
+2026-05-08 00:41:32,768:INFO:interpret_model() successfully completed......................................
+2026-05-08 00:42:56,019:INFO:Initializing interpret_model()
+2026-05-08 00:42:56,020:INFO:interpret_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x35479dad0>, estimator=CatBoostClassifier(border_count=254, depth=4, eta=0.0816174215009435, l2_leaf_reg=33, n_estimators=75, random_state=42, random_strength=0.4588433785517812, task_type='CPU', verbose=False), plot=summary, feature=None, observation=None, use_train_data=False, X_new_sample=None, y_new_sample=None, save=False, kwargs={})
+2026-05-08 00:42:56,020:INFO:Checking exceptions
+2026-05-08 00:42:56,020:INFO:Soft dependency imported: shap: 0.51.0
+2026-05-08 00:42:56,030:INFO:plot type: summary
+2026-05-08 00:42:56,030:INFO:Creating TreeExplainer
+2026-05-08 00:42:56,034:INFO:Compiling shap values
+2026-05-08 00:42:56,036:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/pycaret_experiment/supervised_experiment.py:4145: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap_plot = shap.summary_plot(shap_values, test_X, show=show, **kwargs)
+
+2026-05-08 00:42:56,134:INFO:Visual Rendered Successfully
+2026-05-08 00:42:56,134:INFO:interpret_model() successfully completed......................................
+2026-05-08 00:43:30,712:INFO:Initializing interpret_model()
+2026-05-08 00:43:30,712:INFO:interpret_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x35479dad0>, estimator=CatBoostClassifier(border_count=254, depth=4, eta=0.0816174215009435, l2_leaf_reg=33, n_estimators=75, random_state=42, random_strength=0.4588433785517812, task_type='CPU', verbose=False), plot=summary, feature=None, observation=None, use_train_data=False, X_new_sample=None, y_new_sample=None, save=True, kwargs={})
+2026-05-08 00:43:30,712:INFO:Checking exceptions
+2026-05-08 00:43:30,712:INFO:Soft dependency imported: shap: 0.51.0
+2026-05-08 00:43:30,716:INFO:plot type: summary
+2026-05-08 00:43:30,716:INFO:Creating TreeExplainer
+2026-05-08 00:43:30,721:INFO:Compiling shap values
+2026-05-08 00:43:30,723:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/pycaret_experiment/supervised_experiment.py:4145: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap_plot = shap.summary_plot(shap_values, test_X, show=show, **kwargs)
+
+2026-05-08 00:43:30,768:INFO:Saving 'SHAP summary.png'
+2026-05-08 00:43:30,845:INFO:Visual Rendered Successfully
+2026-05-08 00:43:30,845:INFO:interpret_model() successfully completed......................................
+2026-05-08 00:45:08,133:INFO:Initializing interpret_model()
+2026-05-08 00:45:08,133:INFO:interpret_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x35479dad0>, estimator=CatBoostClassifier(border_count=254, depth=4, eta=0.0816174215009435, l2_leaf_reg=33, n_estimators=75, random_state=42, random_strength=0.4588433785517812, task_type='CPU', verbose=False), plot=summary, feature=None, observation=None, use_train_data=False, X_new_sample=None, y_new_sample=None, save=False, kwargs={})
+2026-05-08 00:45:08,133:INFO:Checking exceptions
+2026-05-08 00:45:08,133:INFO:Soft dependency imported: shap: 0.51.0
+2026-05-08 00:45:08,143:INFO:plot type: summary
+2026-05-08 00:45:08,143:INFO:Creating TreeExplainer
+2026-05-08 00:45:08,149:INFO:Compiling shap values
+2026-05-08 00:45:08,152:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/pycaret_experiment/supervised_experiment.py:4145: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap_plot = shap.summary_plot(shap_values, test_X, show=show, **kwargs)
+
+2026-05-08 00:45:08,249:INFO:Visual Rendered Successfully
+2026-05-08 00:45:08,249:INFO:interpret_model() successfully completed......................................
+2026-05-08 00:46:22,777:INFO:Initializing interpret_model()
+2026-05-08 00:46:22,779:INFO:interpret_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x35479dad0>, estimator=CatBoostClassifier(border_count=254, depth=4, eta=0.0816174215009435, l2_leaf_reg=33, n_estimators=75, random_state=42, random_strength=0.4588433785517812, task_type='CPU', verbose=False), plot=summary, feature=None, observation=None, use_train_data=False, X_new_sample=None, y_new_sample=None, save=False, kwargs={})
+2026-05-08 00:46:22,779:INFO:Checking exceptions
+2026-05-08 00:46:22,779:INFO:Soft dependency imported: shap: 0.51.0
+2026-05-08 00:46:22,783:INFO:plot type: summary
+2026-05-08 00:46:22,783:INFO:Creating TreeExplainer
+2026-05-08 00:46:22,786:INFO:Compiling shap values
+2026-05-08 00:46:22,788:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/pycaret_experiment/supervised_experiment.py:4145: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap_plot = shap.summary_plot(shap_values, test_X, show=show, **kwargs)
+
+2026-05-08 00:46:22,886:INFO:Visual Rendered Successfully
+2026-05-08 00:46:22,886:INFO:interpret_model() successfully completed......................................
+2026-05-08 00:47:32,471:INFO:Initializing interpret_model()
+2026-05-08 00:47:32,471:INFO:interpret_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x35479dad0>, estimator=CatBoostClassifier(border_count=254, depth=4, eta=0.0816174215009435, l2_leaf_reg=33, n_estimators=75, random_state=42, random_strength=0.4588433785517812, task_type='CPU', verbose=False), plot=summary, feature=None, observation=None, use_train_data=False, X_new_sample=None, y_new_sample=None, save=False, kwargs={})
+2026-05-08 00:47:32,471:INFO:Checking exceptions
+2026-05-08 00:47:32,471:INFO:Soft dependency imported: shap: 0.51.0
+2026-05-08 00:47:32,476:INFO:plot type: summary
+2026-05-08 00:47:32,476:INFO:Creating TreeExplainer
+2026-05-08 00:47:32,479:INFO:Compiling shap values
+2026-05-08 00:47:32,481:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/pycaret/internal/pycaret_experiment/supervised_experiment.py:4145: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap_plot = shap.summary_plot(shap_values, test_X, show=show, **kwargs)
+
+2026-05-08 00:47:32,580:INFO:Visual Rendered Successfully
+2026-05-08 00:47:32,580:INFO:interpret_model() successfully completed......................................
