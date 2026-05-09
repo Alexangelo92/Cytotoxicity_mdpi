@@ -138084,3 +138084,18 @@ ValueError: Input contains NaN.
                      n_estimators=120, n_jobs=-1, oob_score=False,
                      random_state=42, verbose=0, warm_start=False)
 2026-05-09 20:44:08,333:INFO:tune_model() successfully completed......................................
+2026-05-09 20:57:00,373:WARNING:/var/folders/11/3c5hy62x5sbcbgmx_l91krkr0000gn/T/ipykernel_85313/3719912922.py:4: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap.summary_plot(shap_values,
+
+2026-05-09 20:57:57,610:WARNING:/var/folders/11/3c5hy62x5sbcbgmx_l91krkr0000gn/T/ipykernel_85313/3170175568.py:4: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap.summary_plot(shap_values,
+
+2026-05-09 20:58:09,019:WARNING:/var/folders/11/3c5hy62x5sbcbgmx_l91krkr0000gn/T/ipykernel_85313/3170175568.py:4: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap.summary_plot(shap_values,
+
+2026-05-09 20:58:12,308:WARNING:/var/folders/11/3c5hy62x5sbcbgmx_l91krkr0000gn/T/ipykernel_85313/2984198123.py:4: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap.summary_plot(shap_values,
+
+2026-05-09 20:58:26,315:WARNING:/var/folders/11/3c5hy62x5sbcbgmx_l91krkr0000gn/T/ipykernel_85313/1153765364.py:4: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap.summary_plot(shap_values,
+
