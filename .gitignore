@@ -1,0 +1,4 @@
+.DS_Store
+catboost_info/
+logs.log
+*.log
