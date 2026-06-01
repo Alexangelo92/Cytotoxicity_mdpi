@@ -8761,3 +8761,14 @@
 2026-05-27 14:04:27,994:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'toxic') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
   warnings.warn(
 
+2026-05-31 11:27:47,191:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-05-31 11:27:47,191:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-05-31 11:27:47,191:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-05-31 11:27:47,191:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-06-01 18:30:51,781:WARNING:/opt/anaconda3/envs/ml-env/lib/python3.11/site-packages/sklearn/preprocessing/_encoders.py:241: UserWarning: Found unknown categories in columns [8] during transform. These unknown categories will be encoded as all zeros
+  warnings.warn(
+
