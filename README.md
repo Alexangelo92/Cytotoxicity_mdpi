@@ -22,10 +22,10 @@ This repository contains all the files used for developing a classification mode
 This folder contains all data files used in the study.
 
 #### cytotoxicity_data.csv
-The raw cytotoxicity dataset compiled from literature, containing polymer composition descriptors and toxicity labels.
+The full curated cytotoxicity dataset including all features and metadata used for model development.
 
 #### cytotoxicity_database.xlsx
-The full curated cytotoxicity database including all features and metadata used for model development.
+The raw cytotoxicity database compiled from literature, containing polymer composition descriptors and toxicity labels.
 
 #### final_train_set_cytotoxicity.xlsx
 The final training set (80% of the dataset) after stratified splitting, used for model training and cross-validation.
